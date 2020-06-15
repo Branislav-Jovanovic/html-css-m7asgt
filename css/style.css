@@ -1,0 +1,122 @@
+html, * {
+    box-sizing: border-box;
+}
+img {
+    float: left;
+    margin: 1em;
+}
+body {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    background-color: #eee;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    width: 100%;
+}
+#main-header{
+    min-width: 100%;
+    text-align: center;
+    background-color: #4682b4;
+    color: #eee;
+    padding: 10px;
+}
+header#main-header h1{
+    margin: 0;
+}
+header {
+    color: #4682b4;
+    margin: auto;
+    border-bottom: 1px solid #4682b4;
+    text-align: center;
+    width: 60%;
+}
+nav .nav-list{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top: 0.5px solid lightgray;
+}
+.nav-list > li {
+    width: 100%;
+    background-color: #4682b4;
+    border-bottom: 0.5px solid lightgray;
+    padding: 5px 3px;
+    color: #eee;
+}
+.nav-list > li:hover{
+    background-color: #2d6592;
+}
+li a {
+    color: #eee;
+    display: block;
+    padding: 3px 5px;
+}
+li.active{
+    font-weight: bold;
+}
+#side-bar{
+    min-height: 100%;
+    width: 15%;
+    background-color: #4682b4;
+    margin: 0;
+    position: fixed;
+    left: 0;
+}
+nav .nav-list{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top: 0.5px solid lightgray;
+}
+.nav-list > li {
+    width: 100%;
+    background-color: #4682b4;
+    border-bottom: 0.5px solid lightgray;
+    padding: 5px 3px;
+    color: #eee;
+}
+.nav-list > li:hover{
+    background-color: #2d6592;
+}
+li a {
+    color: #eee;
+    display: block;
+    padding: 3px 5px;
+}
+li.active{
+    font-weight: bold;
+}
+#content {
+    display: inline-block;
+    margin-left: 15%;
+    max-height: 900px;
+    width: auto;
+    /*margin-top: 3em;*/
+    padding-left: 10px;
+}
+body section#content {
+    overflow-y: scroll;
+    position: relative;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tbody > tr {
+    border-top: 1px solid #4682b4;
+}
+
+table {
+    border-collapse: collapse;
+}
